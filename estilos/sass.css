@@ -38,7 +38,51 @@ section div p {
   color: rgb(255, 255, 255);
   font-size: 30px;
   text-transform: capitalize;
-  text-shadow: 5px 5px black;
+  text-shadow: 3px 3px black;
+}
+
+ol {
+  text-align: center;
+}
+ol li {
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 3px 3px black;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+ol h2 {
+  margin-top: 50px;
+}
+
+.Profes {
+  text-align: center;
+}
+.Profes img {
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.Profes p {
+  border: solid 5px rgb(218, 180, 11);
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.terapias {
+  text-align: center;
+}
+.terapias img {
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.terapias p {
+  border: solid 2px rgb(218, 180, 11);
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 h2 {
@@ -68,35 +112,9 @@ form {
   text-shadow: 3px 3px white;
 }
 
-div p {
-  margin-top: 70px;
-  font-family: "Alkatra", cursive;
-  font-weight: bolder;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  text-transform: capitalize;
-  text-shadow: 5px 5px black;
-}
-
 footer {
   font-family: "Alkatra", cursive;
   text-shadow: 2px 2px black;
   color: azure;
   text-align: center;
-}
-
-ol {
-  text-align: center;
-}
-ol li {
-  font-family: "Alkatra", cursive;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  letter-spacing: 5px;
-  text-shadow: 3px 3px black;
-  margin-top: 50px;
-  text-transform: uppercase;
-}
-ol h2 {
-  margin-top: 50px;
 }/*# sourceMappingURL=sass.css.map */
