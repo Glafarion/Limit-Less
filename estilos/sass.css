@@ -28,37 +28,8 @@ body {
   margin-left: 50px;
 }
 
-div p {
-  margin-top: 70px;
-  font-family: "Alkatra", cursive;
-  font-weight: bolder;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  text-transform: capitalize;
-  text-shadow: 5px 5px black;
-}
-
 section {
   background-image: url(../Img/11534351_m.jpg);
-}
-
-.descripcion {
-  margin-top: 50px;
-}
-
-.navbar-brand {
-  text-shadow: 3px 3px black;
-}
-
-.nav-link {
-  text-shadow: 3px 3px white;
-}
-
-footer {
-  font-family: "Alkatra", cursive;
-  text-shadow: 2px 2px black;
-  color: azure;
-  text-align: center;
 }
 
 h2 {
@@ -74,6 +45,23 @@ form {
   text-align: center;
   font-weight: bolder;
   text-shadow: 1px 1px white;
+}
+
+div p {
+  margin-top: 70px;
+  font-family: "Alkatra", cursive;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 5px 5px black;
+}
+
+footer {
+  font-family: "Alkatra", cursive;
+  text-shadow: 2px 2px black;
+  color: azure;
+  text-align: center;
 }
 
 ol {
