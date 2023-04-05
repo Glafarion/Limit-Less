@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Img/atardecer-playa-cielo-mar-d9f13612461254437a04bff8ca1f3334.jpg)
+}
+section{
+    
+    h1{
+        font-family: 'Alkatra', cursive;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        letter-spacing: 5px;
+        text-align: center;
+        text-shadow: 5px 5px black;
+
+    }
+}
+.medita{
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-left: 50px;
+}
+
+div{
+    p{
+        margin-top: 70px;
+        font-family: 'Alkatra', cursive;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-transform: capitalize;
+        text-shadow: 5px 5px black;
+    }
+}
+
+section{
+    background-image: url(../Img/11534351_m.jpg);
+}
+
+.descripcion{
+    margin-top: 50px;
+}
+
+.navbar-brand{
+    text-shadow: 3px 3px black;
+}
+
+.nav-link{
+    text-shadow: 3px 3px white;
+}
+
+footer{
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px black;
+    color: azure;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 5px 5px black;
+
+}
+
+form{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+}
+
+ol{
+    text-align: center;
+    li{
+        font-family: 'Alkatra', cursive;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        letter-spacing: 5px;
+        
+        text-shadow: 3px 3px black;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    h2{
+        margin-top: 50px;
+    }
+}
