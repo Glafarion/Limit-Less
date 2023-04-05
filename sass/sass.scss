@@ -1,3 +1,5 @@
+@import "titulo";
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap");
@@ -13,19 +15,7 @@ body{
     height: 100vh;
     background-image: url(../Img/atardecer-playa-cielo-mar-d9f13612461254437a04bff8ca1f3334.jpg)
 }
-section{
-    
-    h1{
-        font-family: 'Alkatra', cursive;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        margin-top: 10px;
-        letter-spacing: 5px;
-        text-align: center;
-        text-shadow: 5px 5px black;
 
-    }
-}
 .medita{
         border-radius: 30px;
         margin-top: 30px;
