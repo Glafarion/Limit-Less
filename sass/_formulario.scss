@@ -2,11 +2,11 @@
 section{
     h2{
     font-family: 'Alkatra', cursive;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(255, 255, 255);
     letter-spacing: 5px;
     text-align: center;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px 5px black;
     margin-top: 100px;
 
 }
@@ -14,7 +14,7 @@ section{
 form{
     text-align: center;
     font-weight: bolder;
-    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     color: aliceblue;
 }
 }

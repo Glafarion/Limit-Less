@@ -7,7 +7,7 @@ section h1 {
   margin-top: 10px;
   letter-spacing: 5px;
   text-align: center;
-  text-shadow: 5px 5px black;
+  text-shadow: 5px 5px 5px black;
 }
 
 * {
@@ -38,7 +38,7 @@ section div p {
   color: rgb(255, 255, 255);
   font-size: 30px;
   text-transform: capitalize;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px 3px black;
 }
 
 ol {
@@ -49,7 +49,7 @@ ol li {
   font-weight: bold;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px 3px black;
   margin-top: 50px;
   text-transform: uppercase;
 }
@@ -59,45 +59,64 @@ ol h2 {
 
 .Profes {
   text-align: center;
+  border: solid 3px rgb(218, 180, 11);
+  border-radius: 40px;
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 45%;
 }
 .Profes img {
   border-radius: 15px;
   margin-top: 30px;
 }
 .Profes p {
-  border: solid 5px rgb(218, 180, 11);
-  border-radius: 10px;
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 25px;
 }
 
 .terapias {
   text-align: center;
+}
+.terapias div {
+  border: solid rgb(255, 196, 0);
+  width: 45%;
+  margin-left: 3px;
+  margin-top: 5px;
+  border-radius: 15px;
 }
 .terapias img {
   border-radius: 15px;
   margin-top: 30px;
 }
 .terapias p {
-  border: solid 2px rgb(218, 180, 11);
-  border-radius: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 22px;
+}
+.terapias a {
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  color: rgb(230, 204, 11);
+  font-size: 25px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.Profes p {
+  text-transform: none;
 }
 
 section h2 {
   font-family: "Alkatra", cursive;
-  font-weight: bold;
+  font-weight: bolder;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
   text-align: center;
-  text-shadow: 5px 5px black;
+  text-shadow: 5px 5px 5px black;
   margin-top: 100px;
 }
 section form {
   text-align: center;
   font-weight: bolder;
-  text-shadow: 2px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   color: aliceblue;
 }
 
@@ -115,7 +134,7 @@ section form {
 
 footer {
   font-family: "Alkatra", cursive;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px 2px black;
   color: azure;
   text-align: center;
 }/*# sourceMappingURL=sass.css.map */
