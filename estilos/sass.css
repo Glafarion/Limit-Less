@@ -10,6 +10,14 @@ section h1 {
   text-shadow: 5px 5px 5px black;
 }
 
+.navbar-brand {
+  text-shadow: 3px 3px 3px black;
+}
+
+.nav-link {
+  text-shadow: 3px 3px 3px white;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,6 +43,7 @@ section .index {
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 section div p {
   margin-top: 70px;
@@ -105,14 +114,6 @@ h2 {
   text-shadow: 3px 3px 3px black;
 }
 
-.navbar-brand {
-  text-shadow: 3px 3px 3px black;
-}
-
-.nav-link {
-  text-shadow: 3px 3px 3px white;
-}
-
 ol {
   text-align: center;
 }
@@ -156,4 +157,13 @@ section form {
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
   color: aliceblue;
   margin-top: 90px;
+}
+
+.bienvenido {
+  background-image: url(../Img/11534351_m.jpg);
+}
+.bienvenido h2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
 }/*# sourceMappingURL=sass.css.map */
