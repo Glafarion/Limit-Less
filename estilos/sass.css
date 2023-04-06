@@ -57,27 +57,7 @@ section h2 {
   margin-top: 100px;
 }
 
-ol {
-  text-align: center;
-}
-ol li {
-  font-family: "Alkatra", cursive;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  letter-spacing: 5px;
-  text-shadow: 3px 3px 3px black;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-ol a {
-  font-family: "Alkatra", cursive;
-  font-weight: bold;
-  color: rgb(230, 204, 11);
-  font-size: 30px;
-  text-shadow: 3px 3px 3px black;
-}
-ol h2 {
+h2 {
   margin-top: 50px;
   margin-right: 50px;
 }
@@ -125,22 +105,6 @@ ol h2 {
   text-shadow: 3px 3px 3px black;
 }
 
-.Profes p {
-  text-transform: none;
-}
-
-section form {
-  text-align: center;
-  font-weight: bolder;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  color: aliceblue;
-  margin-top: 90px;
-}
-
-.descripcion {
-  margin-top: 50px;
-}
-
 .navbar-brand {
   text-shadow: 3px 3px 3px black;
 }
@@ -149,10 +113,47 @@ section form {
   text-shadow: 3px 3px 3px white;
 }
 
+ol {
+  text-align: center;
+}
+ol li {
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 3px black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+ol a {
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  color: rgb(230, 204, 11);
+  font-size: 30px;
+  text-shadow: 3px 3px 3px black;
+}
+
+h3 {
+  font-family: "Alkatra", cursive;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 5px black;
+}
+
 footer {
   font-family: "Alkatra", cursive;
   text-shadow: 2px 2px 2px black;
   color: azure;
   text-align: center;
   margin-top: 50px;
+}
+
+section form {
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  color: aliceblue;
+  margin-top: 90px;
 }/*# sourceMappingURL=sass.css.map */
