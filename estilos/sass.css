@@ -28,17 +28,33 @@ body {
   margin-left: 50px;
 }
 
-section {
-  background-image: url(../Img/11534351_m.jpg);
+section .index {
+  border: solid 3px rgb(218, 180, 11);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 30px;
 }
 section div p {
   margin-top: 70px;
+  margin-left: 50px;
   font-family: "Alkatra", cursive;
   font-weight: bolder;
   color: rgb(255, 255, 255);
   font-size: 30px;
   text-transform: capitalize;
   text-shadow: 3px 3px 3px black;
+  width: 90%;
+}
+section h2 {
+  font-family: "Alkatra", cursive;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  margin-top: 100px;
 }
 
 ol {
@@ -51,10 +67,19 @@ ol li {
   letter-spacing: 5px;
   text-shadow: 3px 3px 3px black;
   margin-top: 50px;
+  margin-bottom: 30px;
   text-transform: uppercase;
+}
+ol a {
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  color: rgb(230, 204, 11);
+  font-size: 30px;
+  text-shadow: 3px 3px 3px black;
 }
 ol h2 {
   margin-top: 50px;
+  margin-right: 50px;
 }
 
 .Profes {
@@ -104,20 +129,12 @@ ol h2 {
   text-transform: none;
 }
 
-section h2 {
-  font-family: "Alkatra", cursive;
-  font-weight: bolder;
-  color: rgb(255, 255, 255);
-  letter-spacing: 5px;
-  text-align: center;
-  text-shadow: 5px 5px 5px black;
-  margin-top: 100px;
-}
 section form {
   text-align: center;
   font-weight: bolder;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
   color: aliceblue;
+  margin-top: 90px;
 }
 
 .descripcion {
@@ -125,11 +142,11 @@ section form {
 }
 
 .navbar-brand {
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px 3px black;
 }
 
 .nav-link {
-  text-shadow: 3px 3px white;
+  text-shadow: 3px 3px 3px white;
 }
 
 footer {
@@ -137,4 +154,5 @@ footer {
   text-shadow: 2px 2px 2px black;
   color: azure;
   text-align: center;
+  margin-top: 50px;
 }/*# sourceMappingURL=sass.css.map */

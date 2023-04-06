@@ -17,33 +17,44 @@ body{
 }
 
 section{
-    background-image: url(../Img/11534351_m.jpg);
+    .index{
+        border: solid 3px rgb(218, 180, 11);
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 30px;
+
+    }
     div{
         p{
             margin-top: 70px;
+            margin-left: 50px;
             font-family: 'Alkatra', cursive;
             font-weight: bolder;
             color: rgb(255, 255, 255);
             font-size: 30px;
             text-transform: capitalize;
             text-shadow: 3px 3px 3px black;
+            width: 90%;
         }
+    }
+    h2{
+        font-family: 'Alkatra', cursive;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        letter-spacing: 5px;
+        text-align: center;
+        text-shadow: 5px 5px 5px black;
+        margin-top: 100px;
+    
     }
 }
 
-ol{
-    text-align: center;
-    li{
-        font-family: 'Alkatra', cursive;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        letter-spacing: 5px;
-        text-shadow: 3px 3px 3px black;
-        margin-top: 50px;
-        text-transform: uppercase;
-    }
+
     h2{
         margin-top: 50px;
+        margin-right: 50px;
     }
 }
 
@@ -96,9 +107,3 @@ ol{
     }
 }
 
-.Profes{
-    p{
-        
-        text-transform: none;
-    }
-}
