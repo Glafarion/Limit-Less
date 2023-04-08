@@ -49,6 +49,7 @@ section{
         text-shadow: 5px 5px 5px black;
         margin-top: 100px;
     
+    
     }
 }
 
@@ -61,12 +62,14 @@ section{
 
 .Profes{
     text-align: center;
-    border: solid 3px rgb(218, 180, 11);
-    border-radius: 40px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 20px;
-    width: 45%;
+    width: 100%;
     
+    .fondito{
+        background-color: rgba(255, 215, 0, .5);
+        border-radius: 900px;
+    }
     img{
         border-radius: 15px;
         margin-top: 30px;
@@ -80,21 +83,16 @@ section{
 
 .terapias{
     text-align: center;
-
-    div{
-        border: solid rgb(255, 196, 0);
-        width: 45%;
-        margin-left: 3px;
-        margin-top: 5px;
-        border-radius: 15px;
-
-    }
     img{
         border-radius: 15px;
         margin-top: 30px;
     }
-    p{
 
+    .terapy{
+        background-color: rgba(138, 43, 226, .6);
+        border-radius: 800px;
+    }
+    p{
         font-size: 22px;
     }
 

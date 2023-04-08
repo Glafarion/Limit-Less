@@ -1,5 +1,6 @@
 ol{
     text-align: center;
+
     li{
         font-family: 'Alkatra', cursive;
         font-weight: bold;
@@ -20,10 +21,7 @@ ol{
     }
 }
 
-h3{
-        font-family: 'Alkatra', cursive;
-        font-weight: bolder;
-        color: rgb(255, 255, 255);
-        letter-spacing: 5px;
-        text-shadow: 5px 5px 5px black;
-    }
+.content{
+    background-color: rgb(138, 43, 226, .5);
+    border-radius: 600px;
+}
