@@ -46,7 +46,7 @@ section .index {
 }
 section div p {
   margin-top: 70px;
-  margin-left: 50px;
+  margin-left: 20px;
   font-family: "Alkatra", cursive;
   font-weight: bolder;
   color: rgb(255, 255, 255);
