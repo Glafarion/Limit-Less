@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description=" content="LIMIT-LESS ofrece servicios de coaching y Terapias alternativas para mejorar la calidad de vida y la salud mental. Tambien ofrece cursos para aprender a entrenar la mente y cambiar tu vida">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link text-primary fs-5 fw-bolder active" href="../index.html">Inicio</a>
+                            <a class="nav-link ms-5 text-primary fs-5 fw-bolder active" href="../index.html">Inicio</a>
                             <a class="nav-link ms-5 text-primary fs-5 fw-bolder active" href="./cursos.html">Cursos</a>
                             <a class="nav-link ms-5 text-primary fs-5 fw-bolder active" href="./Terapias.html">Terapias</a>
                             <a class="nav-link ms-5 text-primary fs-5 fw-bolder active" href="./Nuestros Profes.html">Nuestros Capacitadores</a>
@@ -32,25 +33,30 @@
             </nav>
     </header>
 
-    <section class="bienvenido">
+    <section class="bienvenido container-fluid">
         <h2>Bienvenido/a - Si estas listo/a para cambiar tu vida. Te invitamos a ponerte en contacto con nosotros, llenando el siguiente formulario de Inscripcion, y en breve recibiras un correo con toda la info!!</h2>
-        <form action="/formulario" method="Post">
-            <label for="Nombre">Nombre</label>
-            <input id="nombre" name="nombre" placeholder="Nombres">
-            <br>
-            <label for="Apellido">Apellido</label>
-            <input id="apellido" name="apellido" placeholder="Apellidos">
-            <br>
-            <label for="Email">Email</label>
-            <input id="Email" name="Email" placeholder="Email">
-            <br>
-            <label for="Telefono">Telefono</label>
-            <input id="Telefono" name="Telefono" placeholder="Movil">
-            <br>
-            <textarea name="Comentarios" id="Comentarios" cols="30" rows="5" placeholder="Ingrese Comentarios o Consulta"></textarea>
-            <br>
-            <input type="submit">
-        </form>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <img class="img-fluid h-100 w-100 sunset" src="../Img/640-abstracto-arte-digital-meditacion-iluminacion-fondo-ilustracion-diseno-concepto-consciente-y-espiritual.jpg" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12 Formu">
+                <form action="/formulario" method="Post">
+                    <input id="nombre" name="nombre" placeholder="Nombres">
+                    <br>
+                    <input id="apellido" name="apellido" placeholder="Apellidos">
+                    <br>
+                    <input id="Email" name="Email" placeholder="Email">
+                    <br>
+                    <input id="Telefono" name="Telefono" placeholder="Telefono/ Movil">
+                    <br>
+                    <textarea name="Comentarios" id="Comentarios" cols="30" rows="5" placeholder="Ingrese Comentarios o Consulta"></textarea>
+                    <br>
+                    <input class="submit" type="submit">
+                </form>
+            </div>
+
+        </div>
+
         </section>
 
     <footer>

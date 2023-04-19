@@ -131,6 +131,7 @@ ol li {
   margin-top: 50px;
   margin-bottom: 30px;
   text-transform: uppercase;
+  font-size: 20px;
 }
 ol a {
   font-family: "Alkatra", cursive;
@@ -153,17 +154,36 @@ footer {
   margin-top: 50px;
 }
 
+section .Formu {
+  background-image: url(../Img/universo.webp);
+  border-radius: 800px;
+}
 section form {
-  font-family: "Alkatra", cursive;
   text-align: center;
-  font-weight: bolder;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  color: aliceblue;
   margin-top: 40px;
+}
+section .submit:hover {
+  background-color: rgb(246, 74, 203);
+}
+section input {
+  font-family: "Alkatra", cursive;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-align: center;
+}
+section textarea {
+  font-family: "Alkatra", cursive;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-align: center;
+}
+section .sunset {
+  border-radius: 50px;
 }
 
 .bienvenido {
   background-image: url(../Img/11534351_m.jpg);
+  border-radius: 20px;
 }
 .bienvenido h2 {
   margin-left: 50px;
