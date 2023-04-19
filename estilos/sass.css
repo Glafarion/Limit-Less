@@ -160,7 +160,7 @@ section .Formu {
 }
 section form {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 130px;
 }
 section .submit:hover {
   background-color: rgb(246, 74, 203);
