@@ -252,7 +252,7 @@ p {
 
 .grid {
   align-items: center;
-  width: 100%;
+  width: 90%;
   display: grid;
   gap: 3.5em;
   margin: 0 auto;
