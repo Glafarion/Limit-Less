@@ -248,4 +248,23 @@ p {
 }
 .card__item:hover {
   background-color: blueviolet;
+}
+
+.grid {
+  align-items: center;
+  width: 100%;
+  display: grid;
+  gap: 3.5em;
+  margin: 0 auto;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 2fr));
+}
+
+.grid__box {
+  text-align: center;
+  background-color: rgba(138, 43, 226, 0.6);
+  border-radius: 800px;
+}
+.grid__box:hover {
+  background-color: blueviolet;
 }/*# sourceMappingURL=sass.css.map */
