@@ -50,7 +50,7 @@ section div p {
   font-family: "Alkatra", cursive;
   font-weight: bolder;
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 25px;
   text-transform: capitalize;
   text-shadow: 3px 3px 3px black;
   width: 90%;
@@ -63,6 +63,10 @@ section h2 {
   text-align: center;
   text-shadow: 5px 5px 5px black;
   margin-top: 100px;
+}
+
+.descripcion {
+  width: 90%;
 }
 
 h2 {
