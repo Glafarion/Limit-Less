@@ -209,6 +209,8 @@ p {
   margin: 0 auto;
   padding: 60px 0;
   display: flex;
+  min-width: 1200px;
+  min-height: 70vh;
   align-items: center;
   justify-content: space-evenly;
   gap: 3.5em;
@@ -222,6 +224,15 @@ p {
   font-size: 20px;
 }
 
+.card__picture {
+  position: relative;
+  bottom: 2em;
+}
+
+.card__img {
+  border-radius: 10px;
+}
+
 .card__item {
   width: 30%;
   min-width: 300px;
@@ -229,6 +240,7 @@ p {
   background-color: rgba(138, 43, 226, 0.6);
   border-radius: 800px;
   text-align: center;
+  padding-bottom: 3em;
 }
 .card__item:hover {
   background-color: blueviolet;
