@@ -26,6 +26,7 @@
 }
 
 .card__picture{
+    
     position: relative;
     bottom: 2em;
 }
@@ -36,7 +37,7 @@
 
 .card__item{
     width: 30%;
-    min-width: 300px;
+    min-width: 400px;
     height: auto;
     background-color: rgba(138, 43, 226, .6);
     border-radius: 800px;
@@ -50,6 +51,7 @@
 .grid{
     align-items: center;
     width: 100%;
+    
     display: grid;
     gap: 3.5em;
     margin: 0 auto;
@@ -57,6 +59,8 @@
     grid-template-columns: repeat(auto-fill, minmax(28rem, 2fr));
 }
 .grid__box{
+    padding: 40px 0;
+    height: 100%;
     text-align: center;
     background-color: rgba(138, 43, 226, .6);
     border-radius: 800px;

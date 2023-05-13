@@ -239,7 +239,7 @@ p {
 
 .card__item {
   width: 30%;
-  min-width: 300px;
+  min-width: 400px;
   height: auto;
   background-color: rgba(138, 43, 226, 0.6);
   border-radius: 800px;
@@ -261,6 +261,8 @@ p {
 }
 
 .grid__box {
+  padding: 40px 0;
+  height: 100%;
   text-align: center;
   background-color: rgba(138, 43, 226, 0.6);
   border-radius: 800px;
