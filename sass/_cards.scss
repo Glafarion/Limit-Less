@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../Img/11534351_m.jpg);
+    border-radius: 20px;
+}
+
+.card__parrafo{
+    font-size: 20px;
+}
+.card__item{
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    background-color: rgba(138, 43, 226, .6);
+    border-radius: 800px;
+    text-align: center;
+    &:hover{
+        background-color: blueviolet;
+    }
+}

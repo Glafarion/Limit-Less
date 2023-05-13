@@ -33,9 +33,18 @@ section{
 .bienvenido{
     background-image: url(../Img/11534351_m.jpg);
     border-radius: 20px;
-    h2{
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 60px;
-    }
+
 }
+
+p{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Alkatra', cursive;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px black;
+    width: 90%;
+}
+
